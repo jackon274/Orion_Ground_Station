@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>logo_aerospace.svg</file>
+    </qresource>
+    <qresource prefix="/Translations">
+        <file>GS_pl_PL.qm</file>
+    </qresource>
+    <qresource prefix="/Fonts">
+        <file>MaterialIconsRound.otf</file>
+    </qresource>
+</RCC>
