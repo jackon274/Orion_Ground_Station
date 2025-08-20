@@ -3,6 +3,9 @@
         <file>logo_aerospace.svg</file>
         <file>dropdown_arrow.svg</file>
         <file>icon.png</file>
+        <file>icons/checkmark.circle.badge.airplane.fill.svg</file>
+        <file>icons/checkmark.circle.badge.airplane.svg</file>
+        <file>icons/xmark.circle.badge.airplane.fill.svg</file>
     </qresource>
     <qresource prefix="/Translations">
         <file>GroundStation_pl_PL.qm</file>
