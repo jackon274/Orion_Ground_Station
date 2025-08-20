@@ -621,7 +621,7 @@ QPushButton:hover {
 }</string>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>4</number>
     </property>
     <widget class="QWidget" name="page_map">
      <widget class="QWebEngineView" name="map" native="true">
@@ -717,7 +717,7 @@ QPushButton:hover {
             </font>
            </property>
            <property name="text">
-            <string>-00,0</string>
+            <string notr="true">-00,0</string>
            </property>
            <property name="alignment">
             <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
@@ -745,7 +745,7 @@ QPushButton:hover {
             <string notr="true">color: rgb(0,0,0)</string>
            </property>
            <property name="text">
-            <string>°C</string>
+            <string notr="true">°C</string>
            </property>
           </widget>
          </item>
@@ -888,7 +888,7 @@ QPushButton:hover {
             </font>
            </property>
            <property name="text">
-            <string>-00,0</string>
+            <string notr="true">-00,0</string>
            </property>
            <property name="alignment">
             <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
@@ -977,7 +977,7 @@ QPushButton:hover {
             </font>
            </property>
            <property name="text">
-            <string>0000</string>
+            <string notr="true">0000</string>
            </property>
            <property name="alignment">
             <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
@@ -1005,7 +1005,7 @@ QPushButton:hover {
             <string notr="true">color:rgb(0,0,0);</string>
            </property>
            <property name="text">
-            <string>min</string>
+            <string notr="true">min</string>
            </property>
           </widget>
          </item>
@@ -1069,7 +1069,7 @@ QPushButton:hover {
             </font>
            </property>
            <property name="text">
-            <string>00000</string>
+            <string notr="true">00000</string>
            </property>
            <property name="alignment">
             <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
@@ -1097,7 +1097,7 @@ QPushButton:hover {
             <string notr="true">color:rgb(0,0,0);</string>
            </property>
            <property name="text">
-            <string>m</string>
+            <string notr="true">m</string>
            </property>
           </widget>
          </item>
@@ -1161,7 +1161,7 @@ QPushButton:hover {
             </font>
            </property>
            <property name="text">
-            <string>00</string>
+            <string notr="true">00</string>
            </property>
            <property name="alignment">
             <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
@@ -1250,7 +1250,7 @@ QPushButton:hover {
             </font>
            </property>
            <property name="text">
-            <string>000</string>
+            <string notr="true">000</string>
            </property>
            <property name="alignment">
             <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
@@ -1339,7 +1339,7 @@ QPushButton:hover {
             </font>
            </property>
            <property name="text">
-            <string>00</string>
+            <string notr="true">00</string>
            </property>
            <property name="alignment">
             <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
@@ -1507,7 +1507,7 @@ QPushButton:hover {
             </font>
            </property>
            <property name="text">
-            <string>0000</string>
+            <string notr="true">0000</string>
            </property>
            <property name="alignment">
             <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
@@ -1996,7 +1996,7 @@ QPushButton:hover {
           </font>
          </property>
          <property name="text">
-          <string>Ground Station</string>
+          <string notr="true">Ground Station</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignmentFlag::AlignCenter</set>
@@ -2032,7 +2032,7 @@ QPushButton:hover {
           <string notr="true">color: rgba(0, 0, 0, 0.56);</string>
          </property>
          <property name="text">
-          <string>© Jacek Konderak 2025</string>
+          <string notr="true">© Jacek Konderak 2025</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignmentFlag::AlignCenter</set>
@@ -2082,7 +2082,7 @@ QPushButton:hover {
             </font>
            </property>
            <property name="text">
-            <string></string>
+            <string notr="true"></string>
            </property>
           </widget>
          </item>
@@ -2201,7 +2201,7 @@ QPushButton:hover {
               </font>
              </property>
              <property name="text">
-              <string></string>
+              <string notr="true"></string>
              </property>
             </widget>
            </item>
@@ -2299,7 +2299,7 @@ QPushButton:hover {
             </font>
            </property>
            <property name="text">
-            <string></string>
+            <string notr="true"></string>
            </property>
           </widget>
          </item>
@@ -2410,7 +2410,7 @@ QPushButton:hover {
             </font>
            </property>
            <property name="text">
-            <string></string>
+            <string notr="true"></string>
            </property>
           </widget>
          </item>
@@ -2502,7 +2502,7 @@ QPushButton:hover {
             </font>
            </property>
            <property name="text">
-            <string></string>
+            <string notr="true"></string>
            </property>
           </widget>
          </item>
@@ -2613,7 +2613,7 @@ QPushButton:hover {
             </font>
            </property>
            <property name="text">
-            <string></string>
+            <string notr="true"></string>
            </property>
           </widget>
          </item>
