@@ -17,6 +17,7 @@ DataDisplayController::DataDisplayController() {
     dataSeries.insert({SNR, new DataSeries(SNR)});
     dataSeries.insert({RSSI, new DataSeries(RSSI)});
     dataSeries.insert({RFCNT, new DataSeries(RFCNT)});
+    dataSeries.insert({FCNT, new DataSeries(FCNT)});
 }
 
 void DataDisplayController::addPlotWidgetView(QCustomPlot *ptrPlot, QLabel *ptrLabel, DataType type) {

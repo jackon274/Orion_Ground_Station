@@ -41,7 +41,7 @@ MainWindow::MainWindow(QTranslator *ptrTranslator, QApplication *ptrApp, QWidget
     controller.addDataValueLabelView(RSSI, ui->label_RSSI_value, ui->label_RSSI_unit);
     controller.addDataValueLabelView(ELAPSED_TIME, ui->label_time_value, ui->label_time_unit);
     controller.addDataValueLabelView(RFCNT, ui->label_frames_received_value, ui->label_frames_corrupted_text);
-
+    controller.addDataValueLabelView(FCNT, ui->label_frames_sent_value, ui->label_frames_corrupted_text);
 
     QTimer *timer = new QTimer(this);
     timer->setInterval(5000);

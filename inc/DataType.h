@@ -16,7 +16,8 @@ enum DataType {
     ELAPSED_TIME,
     RSSI,
     SNR,
-    RFCNT
+    RFCNT,
+    FCNT
     };
 
 enum UnitSystem {

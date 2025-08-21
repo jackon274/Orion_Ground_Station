@@ -26,6 +26,9 @@ void DataSeries::appendData(DataFrame &frame) {
         break;
         case ELAPSED_TIME:
             data.push_back(frame.getElapsedTimeMinutes());
+        break;
+        case FCNT:
+            data.push_back(frame.getFrameCount());
     }
     time.push_back(timeTest++);
 }
