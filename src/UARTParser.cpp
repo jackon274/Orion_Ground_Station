@@ -56,6 +56,7 @@ void UARTParser::parseLine(std::vector <uint8_t> &receivedData) {
                 rxFrameString = a.substr(dataFrameBegin, dataFrameEnd - dataFrameBegin);
                 a = a.substr(separator2 + 2);
                 fmt::println("RX Found!");
+                parameters.at("RFCNT") ++;
                 continue;
             }
             else {

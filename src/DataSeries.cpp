@@ -38,6 +38,9 @@ void DataSeries::appendData (const std::map <std::string, int> &params) {
         case RSSI:
             data.push_back(params.at("RSSI"));
         break;
+        case RFCNT:
+            data.push_back(params.at("RFCNT"));
+        break;
     }
 }
 

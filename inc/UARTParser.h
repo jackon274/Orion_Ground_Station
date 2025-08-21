@@ -20,7 +20,7 @@ class UARTParser {
     std::vector <std::string> linesTest;
     std::vector <std::string> linesLog;
     std::vector <std::string> linesInfo;
-    std::map <std::string, int> parameters { {"LEN", 0}, {"RSSI", 0}, {"SNR", 0} };
+    std::map <std::string, int> parameters { {"LEN", 0}, {"RSSI", 0}, {"SNR", 0}, {"RFCNT", 0} };
     std::string rxFrameString;
     public:
     void parseLine(std::vector<uint8_t> &receivedData);
