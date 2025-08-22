@@ -35,6 +35,8 @@ void DataValueLabelView::updateDataSeries(DataSeries *series) {
 void DataValueLabelView::changeUnits(UnitSystem unitSystem) {
     if (currentSeries == nullptr)
         return;
+    if (labelUnit == nullptr)
+        return;
 
     switch (unitSystem) {
         case METRIC:
